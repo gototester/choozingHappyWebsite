@@ -1,0 +1,23 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body,
+html {
+	/* height: 100% */
+}
+
+.bgimg {
+	/* Background image */
+	background-image: url('choozingHappy.jpg');
+	background-repeat: no-repeat;
+	background-size: 75% 75%;
+	background-position: center;
+	padding: 30%;
+}
+.message {
+	/* Add a white text color to all elements inside the .bgimg container */
+	color: rgb(99, 99, 99);
+	/* Add a font */
+	font-family: "Courier New", Courier, monospace;
+	/* Set the font-size to 25 pixels */
+  font-size: .2 em;
+  text-align: center;
+}
