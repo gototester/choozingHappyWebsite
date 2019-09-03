@@ -1,7 +1,12 @@
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body,
 html {
-	/* height: 100% */
+}
+.header {
+	color: rgb(99, 99, 99);
+	font-family: "Geneva", "Arial", "Comic Sans MS5";
+  text-align: center;
+  font-size: 100%;
 }
 
 .bgimg {
@@ -12,12 +17,22 @@ html {
 	background-position: center;
 	padding: 30%;
 }
-.message {
-	/* Add a white text color to all elements inside the .bgimg container */
+.contact {
 	color: rgb(99, 99, 99);
-	/* Add a font */
 	font-family: "Geneva", "Arial", "Comic Sans MS5";
-	/* Set the font-size to 25 pixels */
-  font-size: .2 em;
-  text-align: center;
+	font-size: .1 em;
+	text-align: center;
+}
+
+a:link {
+	color: rgb(99, 99, 99);
+	font-size: .4 em;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: hotpink;
 }
