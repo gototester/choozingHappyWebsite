@@ -20,7 +20,7 @@ html {
 .contact {
 	color: rgb(99, 99, 99);
 	font-family: "Geneva", "Arial", "Comic Sans MS5";
-	font-size: 1 em;
+	font-size: 100%;
 	text-align: center;
 }
 
