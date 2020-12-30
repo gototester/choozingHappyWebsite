@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 .branding {
     font-size: 50px;
 }
@@ -12,8 +11,8 @@
 }
 
 .w3-container {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 
@@ -21,7 +20,6 @@
     padding-right: 5%;
     padding-left: 5%;
 }
-
 
 body {
     height: 100%;
@@ -72,8 +70,6 @@ body {
     padding: 0;
 }
 
-
-
 .navbar-links li:hover {
     background-color: #555;
 }
@@ -105,36 +101,7 @@ body {
 #home, #happy, #contact {
     background-color: #ffcd00;
 }
-.showcase {
-    /* background: url('../img/choozing-happy-logo.jpg') no-repeat; */
-    background-color:rgb(232, 178, 0);
-    background-position: center;
-    height: 400px;
-    padding: 140 100;
-}
 
-.showcase h1 {
-    padding-top: 50px;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.showcase hr {
-    width: 30%;
-    margin: auto;
-    border-width: 3px;
-    /* border-color: #f44336; */
-}
-
-.showcase p {
-    font-size: 16px;
-    padding-bottom: 20px;
-}
-
-.section {
-    padding: 40px 0;
-}
 
 .section h2 {
     padding: 0;
@@ -169,9 +136,8 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
     body {
-        padding-top: 0px;
+        padding-top: 55px;
     }
 
     .navbar {
@@ -204,17 +170,6 @@ body {
     .navbar-links.active {
         display: flex;
     }
-
-
-    /* 
-    .showcase {
-        height: 400px;
-        padding: 60px 0;
-    }
-
-    .w3-mobile {
-        display: none;
-    } */
 }
 
 .fa {
@@ -225,7 +180,7 @@ body {
 footer .fa {
     padding: 30px 0;
     font-size: 50px;
-    padding-bottom: auto;
+    padding-bottom: 30px;
 }
 
 footer a {

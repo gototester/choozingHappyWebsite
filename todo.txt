@@ -1,0 +1,4 @@
+1. Make logo scroll to top.
+2. Look into hovering scroll up for mobile view.
+3. Update images.
+4. Disclaimer? 
