@@ -73,21 +73,20 @@ body {
     border-radius: 10px;
 }
 
-#home {
+
+ #home {
     /* padding-top: 80px; */
-    background: url('../img/home_bg.svg');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: 50%;
-    
-    /* background-position-x: center;   */
-}
+    /* background: url('../img/home_bg.svg'); */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: center; */
+    /* background-position-y: center; */
+    /* background-size: 50%; */
+} 
+
 
 #home, #happy, #contact {
     background-color: #ffcd00;
 }
-
 
 .section h2 {
     padding-bottom: 20px;
