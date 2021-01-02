@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <title>Choozing Happy</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="js/script.js" defer></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
 
   <!-- Navigation  -->
   <body>
     <div class="w3-top">
-      <nav class="navbar w3-top w3-dark-grey">
+      <nav class="navbar w3-top">
         <div class="brand-title">
           <a href="#"><img src="img/ch_logo_sm.png" alt="brand logo" /></a>
         </div>
 
-        <a href="#" class="toggle-button">
+        <a href="#" class="toggle-button" alt="scroll to top of page">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -30,10 +30,10 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#charges">Charges</a></li>
             <li>
-              <a href="https://www.facebook.com/choozinghappy/" target="blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+              <a href="https://www.facebook.com/choozinghappy/" target="blank" alt="link to Choozing Happy facebook site"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/choozinghappy/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/choozinghappy/" target="blank" alt="link to Choozing Happy instagram site"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </li>
           </ul>
         </div>
@@ -43,11 +43,8 @@
     <!-- Showcase -->
     <section>
       <div id="showcase" class="w3-container w3-center w3-animate-opacity">
-        <h1>Choozing Happy</h1>
+        <div><img src="img/ch_logo_text.png" alt="Choozing Happy Logo" /></div>
         <p class="w3-sans-serif">INTUITIVE GUIDANCE &nbsp; &#183; &nbsp; ENERGY HEALING &nbsp; &#183; &nbsp; MINDFULNESS</p>
-        <!-- <div class="w3-center">
-          <p>Showtime</p>
-        </div> -->
       </div>
     </section>
 
@@ -58,9 +55,6 @@
         <div class="w3-row">
           <div class="w3-third">
             <img src="img/hi-istockphoto-1092443962-450x450.jpg" alt="Hello image" />
-            <span class="w3-hide-small">
-              <img src="img/choozing-happy-logo.jpg" alt="Choozing Happy Logo" />
-            </span>
           </div>
 
           <div class="w3-twothird">
@@ -156,7 +150,7 @@
       <div class="w3-container w3-center">
         <div class="w3-row">
           <div class="w3-third">
-            <img src="img/sessionsdice_istockphoto-1151928476-1024x1024.jpg" alt="Dice image" />
+            <img src="img/chdice_istockphoto-1151928476-1024x1024.jpg" alt="Dice image" />
           </div>
           <div class="w3-twothird w3-center">
             <i class="fa fa-smile-o"></i>
@@ -282,10 +276,23 @@
     </section>
 
     <!-- Footer -->
-    <footer class="w3-container w3-center w3-dark-grey">
-      <a href="https://www.facebook.com/choozinghappy/" target="blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-      <a href="https://www.instagram.com/choozinghappy/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <footer class="w3-container w3-center">
+      <a href="https://www.facebook.com/choozinghappy/" target="blank" alt="link to Choozing Happy facebook site"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/choozinghappy/" target="blank" alt="link to Choozing Happy instagram site"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       <div class="w3-center">©2021 Choozing Happy</div>
     </footer>
   </body>
+
+  <script>
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+    toggleButton.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active')
+    })
+
+    navbarLinks.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active')
+    })
+  </script>
 </html>
