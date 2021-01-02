@@ -136,7 +136,7 @@ footer .fa {
 }
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
     body {
         padding-top: 55px;
     }
@@ -171,5 +171,15 @@ footer .fa {
     .navbar-links.active {
         display: flex;
     }
+
+    .section img {
+        pointer-events: none;
+    }
+     
+    #about .w3-third {
+        max-width: 500px;
+        padding: 5%;
+        pointer-events: none;
+    } 
 }
 
