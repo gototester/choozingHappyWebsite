@@ -339,7 +339,6 @@
   </body>
   <script>
 
-    document.getElementById("year").innerHTML = new Date().getFullYear();
     const toggleButton = document.getElementsByClassName('toggle-button')[0]
     const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
@@ -357,6 +356,9 @@
         navbarLinks.classList.toggle('active')
       }
     };
+
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+
   </script>
 
 </html>
